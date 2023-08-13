@@ -1,0 +1,142 @@
+.body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 438px;
+    height: 653px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: grey;
+}
+
+.title {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.search {
+    text-align: center;
+}
+
+.input {
+    box-sizing: border-box;
+    width: 192px;
+    height: 35px;
+    flex-shrink: 0;
+    color: rgba(33, 33, 33, 0.70);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18.22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.60);
+    margin-right: 15px;
+}
+
+.number {
+    width: 64px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.60);
+}
+
+.btn {
+    width: 101px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid var(--gold, #FFD700);
+    background-color: grey;
+}
+
+.btn span {
+    color: #FFD700;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.li {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Calibri;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 385px;
+    height: 36px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-bottom: 1px solid #FFD700;
+}
+
+.div_left {
+    display: flex;
+}
+
+.num {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background: var(--gold, #FFD700);
+    text-align: center;
+    margin-right: 15px;
+    color: #000;
+    font-family: Calibri;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.active {
+    background-color: green;
+}
+
+.uil-check{
+    color: #FFD700;
+    font-size: 25px;
+}
+
+.complete {
+    background-color: inherit;
+    border: none;
+    padding: 0;
+}
+
+.delete {
+    
+}
+
+.closed {
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+}
